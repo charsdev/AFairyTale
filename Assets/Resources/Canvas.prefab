@@ -774,7 +774,7 @@ PrefabInstance:
       objectReference: {fileID: 40038464736677757}
     - target: {fileID: 427223106453819875, guid: 6aeeafb4f9fc9374b939e006d7cf94e7, type: 3}
       propertyPath: progress
-      value: 10
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 427223106453819875, guid: 6aeeafb4f9fc9374b939e006d7cf94e7, type: 3}
       propertyPath: progressBar
