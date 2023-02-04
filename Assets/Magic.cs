@@ -16,6 +16,8 @@ public class Magic : MonoBehaviour
 
     private void Start()
     {
+        _total = _maxValue;
+        MagicBar.value = _total;
     }
 
     private void Update()
