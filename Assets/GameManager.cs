@@ -10,7 +10,12 @@ public class GameManager : MonoBehaviour
     public float progress;
 	public Slider slider;
     public float totalProgress = 0;
+    public Timer timer;
 
+    private void Start()
+    {
+        timer.StartTimer();
+    }
     private void Update()
     {
         totalProgress += Mathf.Clamp((progress * Time.deltaTime) / 100, 0, maxValue);
