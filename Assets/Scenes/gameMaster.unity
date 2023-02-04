@@ -1175,11 +1175,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7225055777935000945, guid: 085c6723cf6718d4d9c137eca0538dcb, type: 3}
       propertyPath: maxChilds
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7225055777935000945, guid: 085c6723cf6718d4d9c137eca0538dcb, type: 3}
-      propertyPath: propagationTime
-      value: 6
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 085c6723cf6718d4d9c137eca0538dcb, type: 3}
