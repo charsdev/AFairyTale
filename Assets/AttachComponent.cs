@@ -10,7 +10,7 @@ public class AttachComponent : MonoBehaviour
     {
         if (bounding == null)
         {
-            bounding = GameObject.FindGameObjectWithTag("Bounding").GetComponent<Collider>();
+            bounding = GameObject.FindGameObjectWithTag("Bounding")?.GetComponent<Collider>();
             cinemachineConfiner.m_BoundingVolume = bounding;
         }      
     }
