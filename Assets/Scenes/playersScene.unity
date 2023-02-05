@@ -3189,6 +3189,14 @@ PrefabInstance:
       propertyPath: _camera
       value: 
       objectReference: {fileID: 714131072}
+    - target: {fileID: 541321232, guid: ff15d34d66371944788840f2e8fecaba, type: 3}
+      propertyPath: _magicHint
+      value: 
+      objectReference: {fileID: 1903839719}
+    - target: {fileID: 1777918540259057167, guid: ff15d34d66371944788840f2e8fecaba, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4511118820961885655, guid: ff15d34d66371944788840f2e8fecaba, type: 3}
       propertyPath: m_Name
       value: Player
@@ -3312,6 +3320,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff15d34d66371944788840f2e8fecaba, type: 3}
+--- !u!1 &1903839719 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1777918540259057167, guid: ff15d34d66371944788840f2e8fecaba, type: 3}
+  m_PrefabInstance: {fileID: 1870415595}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1909557556
 PrefabInstance:
   m_ObjectHideFlags: 0
