@@ -3,98 +3,57 @@ using UnityEngine.UI;
 
 public class MagicController : MonoBehaviour
 {
-    public Button FireButton;
-    public Button HealthButton;
-    public Button RayButton;
-
-    public Slider EnergyBar;
+    public Image skillCooldownFill;
     public Color Low, High;
 
     [SerializeField] private float _maxEnergy = 100;
     [SerializeField] private float _currentEnergy;
-    [SerializeField] private float _step;
-    [SerializeField] private bool _isInUse;
-    [SerializeField] private float _cooldown;
-    private float _initialCooldown = 5;
-    private string _magicType;
-    private Image _fillRect;
 
-    public string MagicType { get => _magicType;  }
+    private bool _usingSpell;
 
-    private void SetupEnergy()
+    private void Start()
     {
         _currentEnergy = _maxEnergy;
     }
 
-    private void Start()
-    {
-        _fillRect = EnergyBar.fillRect.GetComponent<Image>();
-        SetupEnergy();
-        FireButton.onClick.AddListener(() => SetMagic("FireDamage"));
-        HealthButton.onClick.AddListener(() => SetMagic("FireDamage"));
-        RayButton.onClick.AddListener(() => SetMagic("FireDamage"));
-    }
-
     private void Update()
     {
-        if (!_isInUse)
-        {
+        if (!_usingSpell) 
             IncreaseMagic();
-        }
 
-        else
+        if (Input.GetKeyDown(KeyCode.Space) && !_usingSpell)
         {
-           HandleCooldown();
-           DecrementMagic();
+            _usingSpell = true;
         }
 
-        HandleBarFill();
-    }
+        if (Input.GetKey(KeyCode.Space))
+        {
+            DecrementMagic();
+        }
 
-    private void HandleBarFill()
-    {
-        EnergyBar.value = _currentEnergy;
-        _fillRect.color = Color.Lerp(Low, High, EnergyBar.normalizedValue);
+        skillCooldownFill.fillAmount = _currentEnergy / _maxEnergy;
     }
 
     private void IncreaseMagic()
     {
-        _currentEnergy += _step * Time.deltaTime;
-        if (_currentEnergy > 1)
+        _currentEnergy += 10 * Time.deltaTime;
+        if (_currentEnergy > _maxEnergy)
         {
-            _currentEnergy = 1;
+            _currentEnergy = _maxEnergy;
         }
     }
 
     private void DecrementMagic()
     {
-        _currentEnergy -= _step * Time.deltaTime;
-        if (_currentEnergy < 0)
+        _currentEnergy -= 10 * Time.deltaTime;
+
+        if (_currentEnergy < 0.0f)
         {
-            _currentEnergy = 0;
+            _usingSpell = false;
+            _currentEnergy = 0.0f;
         }
     }
 
-    private void SetMagic(string magic)
-    {
-        _magicType = magic;
-    }
-
-    public void UseMagic()
-    {
-        _isInUse = true;
-    }
-
-    private void HandleCooldown()
-    {
-        _cooldown -= Time.deltaTime * 1;
-
-        if (_cooldown <= 0)
-        {
-            _isInUse = false;
-            _magicType = string.Empty;
-            _cooldown = _initialCooldown;
-        }
-    }
+   
 
 }
