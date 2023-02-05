@@ -18,7 +18,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1160749477359552793
 Transform:
@@ -27,7 +27,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1160749477359552789}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -157,7 +157,7 @@ MonoBehaviour:
     lodLevels:
     - distance: 0
     archetypeName: Plane__char_32_1_486f903c1de99a24cbff556dd01d2a87
-    GeneratesArchetypeDefinition: 0
+    GeneratesArchetypeDefinition: 1
   InterpolationLocation: 1
   bakedScriptType: Coherence.Generated.CoherenceSyncPlane__char_32_1, Assembly-CSharp
   approveAuthorityTransferRequests: 1
@@ -184,7 +184,7 @@ MonoBehaviour:
       m_Calls: []
   remoteVersionPrefabName: Plane 1
   PrefabGuid: 486f903c1de99a24cbff556dd01d2a87
-  selectedSynchronizedPrefabOption: 3
+  selectedSynchronizedPrefabOption: 0
   usingReflection: 0
   coherenceTag: 
   componentActions: []

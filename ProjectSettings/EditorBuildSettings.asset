@@ -8,5 +8,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/playersScene.unity
     guid: a005805a6341c8b4f811b50a20fea4a8
+  - enabled: 1
+    path: Assets/Scenes/gameMaster.unity
+    guid: 65b92d1bda4732845b5c7560c211df6a
   m_configObjects:
     io.coherence.simulator.build.options: {fileID: 11400000, guid: 6732f4c476213814180532080d76fd9f, type: 2}

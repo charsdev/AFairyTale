@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3217054201063022775}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.86, y: 0, z: 0}
+  m_LocalPosition: {x: 0.578, y: 0, z: -0.028}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -55,7 +55,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3662437915499734818}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.01, y: 0, z: 1.08}
+  m_LocalPosition: {x: 0.046, y: 0, z: 0.548}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -258,7 +258,7 @@ MonoBehaviour:
     lodLevels:
     - distance: 0
     archetypeName: Fire_085c6723cf6718d4d9c137eca0538dcb
-    GeneratesArchetypeDefinition: 0
+    GeneratesArchetypeDefinition: 1
   InterpolationLocation: 1
   bakedScriptType: Coherence.Generated.CoherenceSyncFire, Assembly-CSharp
   approveAuthorityTransferRequests: 1
@@ -358,7 +358,7 @@ MonoBehaviour:
   - {fileID: 6500663945866778319}
   - {fileID: 6370556416068654306}
   - {fileID: 681301245928742551}
-  maxChilds: 2
+  maxChilds: 1
 --- !u!1 &7465137182183306449
 GameObject:
   m_ObjectHideFlags: 0
@@ -383,7 +383,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7465137182183306449}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.16, y: 0, z: -1.3}
+  m_LocalPosition: {x: 0.043, y: 0, z: -0.585}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -414,7 +414,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8259086386792837683}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.15, y: 0, z: 0}
+  m_LocalPosition: {x: -0.54, y: 0, z: -0.063}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -442,7 +442,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4166505909902172, guid: 08fd1b80cc24cc8439f45fda3c558255, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.62
       objectReference: {fileID: 0}
     - target: {fileID: 4166505909902172, guid: 08fd1b80cc24cc8439f45fda3c558255, type: 3}
       propertyPath: m_LocalPosition.z
