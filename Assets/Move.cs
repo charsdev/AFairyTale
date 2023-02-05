@@ -9,6 +9,7 @@ public class Move : MonoBehaviour
     [SerializeField] private SpriteRenderer _spriteRenderer;
     [SerializeField] private NavMeshAgent _agent;
     [SerializeField] private GameObject _arrow;
+    [SerializeField] private Vector3 offset;
 
     private void Start()
     {
@@ -29,7 +30,7 @@ public class Move : MonoBehaviour
             if (Physics.Raycast(ray, out RaycastHit hit))
             {
                 _agent.SetDestination(hit.point);
-                //_arrow.transform.position = hit.point;
+                _arrow.transform.position = hit.point + offset;
             }
         }  
     }
