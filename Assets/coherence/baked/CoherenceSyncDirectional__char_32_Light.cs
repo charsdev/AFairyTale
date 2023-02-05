@@ -24,9 +24,9 @@ namespace Coherence.Generated
 
 
 	[Preserve]
-	[AddComponentMenu("coherence/Baked/Baked 'Yggdrasil_pequeño' (auto assigned)")]
+	[AddComponentMenu("coherence/Baked/Baked 'Directional Light' (auto assigned)")]
 	[RequireComponent(typeof(CoherenceSync))]
-	public class CoherenceSyncYggdrasil_peque__char_241_o_id0 : CoherenceSyncBaked
+	public class CoherenceSyncDirectional__char_32_Light : CoherenceSyncBaked
 	{
 		private CoherenceSync coherenceSync;
 		private Logger logger;
@@ -41,7 +41,7 @@ namespace Coherence.Generated
 			coherenceSync = GetComponent<CoherenceSync>();
 			coherenceSync.usingReflection = false;
 
-			logger = coherenceSync.logger.With<CoherenceSyncYggdrasil_peque__char_241_o_id0>();
+			logger = coherenceSync.logger.With<CoherenceSyncDirectional__char_32_Light>();
 		}
 
 		public override List<ICoherenceComponentData> CreateEntity()
@@ -80,7 +80,7 @@ namespace Coherence.Generated
 			switch(command)
 			{
 				default:
-					logger.Warning($"[CoherenceSyncYggdrasil_peque__char_241_o_id0] Unhandled command: {command.GetType()}.");
+					logger.Warning($"[CoherenceSyncDirectional__char_32_Light] Unhandled command: {command.GetType()}.");
 					break;
 			}
 		}

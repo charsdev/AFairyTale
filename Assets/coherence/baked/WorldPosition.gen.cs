@@ -73,18 +73,6 @@ namespace Coherence.Generated
 			}
 			return (val, mask, null);
 		}
-		public static (WorldPosition, uint, uint?) DeserializeArchetypeYggdrasil_peque__char_241_o_6350f926c98120b4fafb9c7b0130b042_WorldPosition_LOD0(InProtocolBitStream bitStream)
-		{
-			var mask = (uint)0;
-			var val = new WorldPosition();
-			if (bitStream.ReadMask())
-			{
-				val.value = (bitStream.ReadVector3(FloatMeta.NoCompression())).ToUnityVector3();
-				mask |= 0b00000000000000000000000000000001;
-			}
-
-			return (val, mask, 0);
-		}
 		public static (WorldPosition, uint, uint?) DeserializeArchetypeCanvas_7e3d37204c8666b4c937cb8f886bf046_WorldPosition_LOD0(InProtocolBitStream bitStream)
 		{
 			var mask = (uint)0;
@@ -110,6 +98,18 @@ namespace Coherence.Generated
 			return (val, mask, 0);
 		}
 		public static (WorldPosition, uint, uint?) DeserializeArchetypeCube_8918fa56754124d41ba9ed21de2c937d_WorldPosition_LOD0(InProtocolBitStream bitStream)
+		{
+			var mask = (uint)0;
+			var val = new WorldPosition();
+			if (bitStream.ReadMask())
+			{
+				val.value = (bitStream.ReadVector3(FloatMeta.NoCompression())).ToUnityVector3();
+				mask |= 0b00000000000000000000000000000001;
+			}
+
+			return (val, mask, 0);
+		}
+		public static (WorldPosition, uint, uint?) DeserializeArchetypeDirectional__char_32_Light_529987fff2cb05c448cc73d44075a64f_WorldPosition_LOD0(InProtocolBitStream bitStream)
 		{
 			var mask = (uint)0;
 			var val = new WorldPosition();
@@ -169,7 +169,7 @@ namespace Coherence.Generated
 
 			return (val, mask, 0);
 		}
-		public static (WorldPosition, uint, uint?) DeserializeArchetypePlayerCanvas_dd9631ba60aeaeb40bc30b50a24f9ac7_WorldPosition_LOD0(InProtocolBitStream bitStream)
+		public static (WorldPosition, uint, uint?) DeserializeArchetypeTree_61f6c1193416eaf4e86afe5a65afd4fa_WorldPosition_LOD0(InProtocolBitStream bitStream)
 		{
 			var mask = (uint)0;
 			var val = new WorldPosition();
@@ -181,7 +181,7 @@ namespace Coherence.Generated
 
 			return (val, mask, 0);
 		}
-		public static (WorldPosition, uint, uint?) DeserializeArchetypeTree_61f6c1193416eaf4e86afe5a65afd4fa_WorldPosition_LOD0(InProtocolBitStream bitStream)
+		public static (WorldPosition, uint, uint?) DeserializeArchetypeYggdrasil_peque__char_241_o_6350f926c98120b4fafb9c7b0130b042_WorldPosition_LOD0(InProtocolBitStream bitStream)
 		{
 			var mask = (uint)0;
 			var val = new WorldPosition();

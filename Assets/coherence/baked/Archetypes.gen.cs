@@ -10,25 +10,25 @@ namespace Coherence.Generated
 
 	public static class Archetypes
 	{
-		public const int Yggdrasil_peque__char_241_o_6350f926c98120b4fafb9c7b0130b042Index = 0;
-		public const int Canvas_7e3d37204c8666b4c937cb8f886bf046Index = 1;
-		public const int Confiner_64fe7a22cffbfbc4a88104ca7b39005fIndex = 2;
-		public const int Cube_8918fa56754124d41ba9ed21de2c937dIndex = 3;
+		public const int Canvas_7e3d37204c8666b4c937cb8f886bf046Index = 0;
+		public const int Confiner_64fe7a22cffbfbc4a88104ca7b39005fIndex = 1;
+		public const int Cube_8918fa56754124d41ba9ed21de2c937dIndex = 2;
+		public const int Directional__char_32_Light_529987fff2cb05c448cc73d44075a64fIndex = 3;
 		public const int Fire_085c6723cf6718d4d9c137eca0538dcbIndex = 4;
 		public const int Plane_1d5f336e0c405b44084fb735ae17f359Index = 5;
 		public const int Plane__char_32_1_486f903c1de99a24cbff556dd01d2a87Index = 6;
 		public const int Player_ff15d34d66371944788840f2e8fecabaIndex = 7;
-		public const int PlayerCanvas_dd9631ba60aeaeb40bc30b50a24f9ac7Index = 8;
-		public const int Tree_61f6c1193416eaf4e86afe5a65afd4faIndex = 9;
+		public const int Tree_61f6c1193416eaf4e86afe5a65afd4faIndex = 8;
+		public const int Yggdrasil_peque__char_241_o_6350f926c98120b4fafb9c7b0130b042Index = 9;
 
 		public static Dictionary<string, int> IndexForName = new Dictionary<string, int>() {
-			{ "Yggdrasil_peque__char_241_o_6350f926c98120b4fafb9c7b0130b042", 0 },
+			{ "Canvas_7e3d37204c8666b4c937cb8f886bf046", 0 },
 
-			{ "Canvas_7e3d37204c8666b4c937cb8f886bf046", 1 },
+			{ "Confiner_64fe7a22cffbfbc4a88104ca7b39005f", 1 },
 
-			{ "Confiner_64fe7a22cffbfbc4a88104ca7b39005f", 2 },
+			{ "Cube_8918fa56754124d41ba9ed21de2c937d", 2 },
 
-			{ "Cube_8918fa56754124d41ba9ed21de2c937d", 3 },
+			{ "Directional__char_32_Light_529987fff2cb05c448cc73d44075a64f", 3 },
 
 			{ "Fire_085c6723cf6718d4d9c137eca0538dcb", 4 },
 
@@ -38,9 +38,9 @@ namespace Coherence.Generated
 
 			{ "Player_ff15d34d66371944788840f2e8fecaba", 7 },
 
-			{ "PlayerCanvas_dd9631ba60aeaeb40bc30b50a24f9ac7", 8 },
+			{ "Tree_61f6c1193416eaf4e86afe5a65afd4fa", 8 },
 
-			{ "Tree_61f6c1193416eaf4e86afe5a65afd4fa", 9 },
+			{ "Yggdrasil_peque__char_241_o_6350f926c98120b4fafb9c7b0130b042", 9 },
 
 		};
 	}

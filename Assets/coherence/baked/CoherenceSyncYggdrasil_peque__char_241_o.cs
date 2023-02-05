@@ -24,9 +24,9 @@ namespace Coherence.Generated
 
 
 	[Preserve]
-	[AddComponentMenu("coherence/Baked/Baked 'PlayerCanvas' (auto assigned)")]
+	[AddComponentMenu("coherence/Baked/Baked 'Yggdrasil_pequeño' (auto assigned)")]
 	[RequireComponent(typeof(CoherenceSync))]
-	public class CoherenceSyncPlayerCanvas : CoherenceSyncBaked
+	public class CoherenceSyncYggdrasil_peque__char_241_o : CoherenceSyncBaked
 	{
 		private CoherenceSync coherenceSync;
 		private Logger logger;
@@ -41,7 +41,7 @@ namespace Coherence.Generated
 			coherenceSync = GetComponent<CoherenceSync>();
 			coherenceSync.usingReflection = false;
 
-			logger = coherenceSync.logger.With<CoherenceSyncPlayerCanvas>();
+			logger = coherenceSync.logger.With<CoherenceSyncYggdrasil_peque__char_241_o>();
 		}
 
 		public override List<ICoherenceComponentData> CreateEntity()
@@ -80,7 +80,7 @@ namespace Coherence.Generated
 			switch(command)
 			{
 				default:
-					logger.Warning($"[CoherenceSyncPlayerCanvas] Unhandled command: {command.GetType()}.");
+					logger.Warning($"[CoherenceSyncYggdrasil_peque__char_241_o] Unhandled command: {command.GetType()}.");
 					break;
 			}
 		}

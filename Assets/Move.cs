@@ -23,8 +23,9 @@ public class Move : MonoBehaviour
 
     private void Update()
     {
-        GetPointToMove();
-        MoveToPoint();
+        var movementDir = (new Vector3(Input.GetAxis("Horizontal"),0,Input.GetAxis("Vertical"))).normalized;
+        transform.position += movementDir * _speed * Time.deltaTime;
+
     }
 
     private void GetPointToMove()

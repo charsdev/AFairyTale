@@ -22,6 +22,43 @@ namespace Coherence.Generated
 	using Logger = Coherence.Log.Logger;
 	using UnityEngine.Scripting;
 
+	public class Binding_ff15d34d66371944788840f2e8fecaba_687c0d57_2367_4b44_880d_53145a8f5703 : DeepPositionBinding
+	{
+		private UnityEngine.Transform CastedUnityComponent;		
+
+		protected override void OnBindingCloned()
+		{
+			CastedUnityComponent = (UnityEngine.Transform)UnityComponent;
+		}
+		public override string CoherenceComponentName => "Player_UnityEngine__char_46_Transform_3446985747039271858";
+
+		public override uint FieldMask => 0b00000000000000000000000000000001;
+
+		public override Vector3 Value
+		{
+			get => (Vector3)(UnityEngine.Vector3)(CastedUnityComponent.localPosition);
+			set => CastedUnityComponent.localPosition = (UnityEngine.Vector3)(value);
+		}
+
+		protected override Vector3 ReadComponentData(ICoherenceComponentData coherenceComponent)
+		{
+			var update = (Player_UnityEngine__char_46_Transform_3446985747039271858)coherenceComponent;
+			return update.position;
+		}
+		
+		public override ICoherenceComponentData WriteComponentData(ICoherenceComponentData coherenceComponent)
+		{
+			var update = (Player_UnityEngine__char_46_Transform_3446985747039271858)coherenceComponent;
+			update.position = Value;
+			return update;
+		}
+
+		public override ICoherenceComponentData CreateComponentData()
+		{
+			return new Player_UnityEngine__char_46_Transform_3446985747039271858();
+		}
+	}
+
 
 	[Preserve]
 	[AddComponentMenu("coherence/Baked/Baked 'Player' (auto assigned)")]
@@ -42,6 +79,16 @@ namespace Coherence.Generated
 			coherenceSync.usingReflection = false;
 
 			logger = coherenceSync.logger.With<CoherenceSyncPlayer>();
+			if (coherenceSync.TryGetBindingByGuid("687c0d57-2367-4b44-880d-53145a8f5703", "position", out Binding InternalPlayer_UnityEngine__char_46_Transform_3446985747039271858_Player_UnityEngine__char_46_Transform_3446985747039271858_position))
+			{
+				var clone = new Binding_ff15d34d66371944788840f2e8fecaba_687c0d57_2367_4b44_880d_53145a8f5703();
+				InternalPlayer_UnityEngine__char_46_Transform_3446985747039271858_Player_UnityEngine__char_46_Transform_3446985747039271858_position.CloneTo(clone);
+				coherenceSync.Bindings[coherenceSync.Bindings.IndexOf(InternalPlayer_UnityEngine__char_46_Transform_3446985747039271858_Player_UnityEngine__char_46_Transform_3446985747039271858_position)] = clone;
+			}
+			else
+			{
+				logger.Error("Couldn't find binding (UnityEngine.Transform).position");
+			}
 		}
 
 		public override List<ICoherenceComponentData> CreateEntity()
