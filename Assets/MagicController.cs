@@ -4,12 +4,13 @@ using UnityEngine.UI;
 public class MagicController : MonoBehaviour
 {
     public Image skillCooldownFill;
-    public Color Low, High;
 
     [SerializeField] private float _maxEnergy = 100;
     [SerializeField] private float _currentEnergy;
 
     private bool _usingSpell;
+
+    public bool UsingSpell { get => _usingSpell; }
 
     private void Start()
     {
@@ -29,6 +30,11 @@ public class MagicController : MonoBehaviour
         if (Input.GetKey(KeyCode.Space))
         {
             DecrementMagic();
+        }
+
+        if (Input.GetKeyUp(KeyCode.Space) && _usingSpell)
+        {
+            _usingSpell = false;
         }
 
         skillCooldownFill.fillAmount = _currentEnergy / _maxEnergy;
