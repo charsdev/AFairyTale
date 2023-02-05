@@ -1,0 +1,1355 @@
+fileFormatVersion: 2
+guid: fe4e68931b35eff4bb5497da60eeffbb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5596
+        width: 763
+        height: 884
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a2d35d577311504caabab7f7eec707e
+      internalID: -1158356600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_1
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 5596
+        width: 756
+        height: 884
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d688f150cdd88747a5273acca90dce7
+      internalID: 1235309892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_2
+      rect:
+        serializedVersion: 2
+        x: 2300
+        y: 5596
+        width: 750
+        height: 884
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae4cbd4e73ca9a469e4f7bb2378f7ce
+      internalID: 953464756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_3
+      rect:
+        serializedVersion: 2
+        x: 3066
+        y: 5596
+        width: 750
+        height: 884
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731f2817008a7ed4c957987ccee762e8
+      internalID: 70861019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_4
+      rect:
+        serializedVersion: 2
+        x: 3835
+        y: 5596
+        width: 743
+        height: 884
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b08ee875ec39ac6468bd63d7c01ade7e
+      internalID: -2039391805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_5
+      rect:
+        serializedVersion: 2
+        x: 4604
+        y: 5596
+        width: 737
+        height: 884
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15bce1bd0885bd349aee232efaacac78
+      internalID: 133499071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_6
+      rect:
+        serializedVersion: 2
+        x: 5370
+        y: 5596
+        width: 742
+        height: 884
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de4a983991dd10c4d9ad4bf2294ff97e
+      internalID: -1783462789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_7
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 4668
+        width: 725
+        height: 883
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24916a7d851c05b4c967c65935bb4ec6
+      internalID: -958693987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_8
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 4668
+        width: 724
+        height: 883
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09643d5f130cc3a4b8173a347039a0a8
+      internalID: 465611177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_9
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 4668
+        width: 718
+        height: 883
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc8631a890540a469fb7cc0af693f8d
+      internalID: -1168890055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_10
+      rect:
+        serializedVersion: 2
+        x: 2328
+        y: 4668
+        width: 712
+        height: 883
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cceb4761a18416c46b84cea09e51e89e
+      internalID: -1279987407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_11
+      rect:
+        serializedVersion: 2
+        x: 3094
+        y: 4668
+        width: 709
+        height: 883
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93b88bf630b4c3428402c05d2a31b3e
+      internalID: 689693126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_12
+      rect:
+        serializedVersion: 2
+        x: 3863
+        y: 4668
+        width: 706
+        height: 883
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca8fbc13b01f30c4ca429f9153108acb
+      internalID: 660806798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_13
+      rect:
+        serializedVersion: 2
+        x: 4629
+        y: 4668
+        width: 701
+        height: 883
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4c670a3561d4c41874f4464cda4063
+      internalID: 1263341684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_14
+      rect:
+        serializedVersion: 2
+        x: 5395
+        y: 4668
+        width: 699
+        height: 883
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641e208c2ef94b44dae2a6451451e963
+      internalID: -1967147428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_15
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 3737
+        width: 695
+        height: 883
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790dff51295b8ac40b8ce648abc0b1ff
+      internalID: 1439487083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_16
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 3737
+        width: 687
+        height: 883
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ddac28d19d373448bb2b79ec165e14
+      internalID: 1133749975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_17
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 3737
+        width: 684
+        height: 883
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ddc5955a252c444881cf9415cabce5
+      internalID: -1880234415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_18
+      rect:
+        serializedVersion: 2
+        x: 2354
+        y: 3737
+        width: 678
+        height: 883
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4efa6cd2204894ca8fef40a920f049
+      internalID: 927707812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_19
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 3737
+        width: 673
+        height: 883
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b09faf3eae83d4d97f7011f9a893fc
+      internalID: 1642360441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_20
+      rect:
+        serializedVersion: 2
+        x: 3886
+        y: 3737
+        width: 670
+        height: 883
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc05b73881521574f947974d18824652
+      internalID: -981089989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_21
+      rect:
+        serializedVersion: 2
+        x: 4655
+        y: 3737
+        width: 664
+        height: 883
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4fe6050afe618438249e71be54a081
+      internalID: -1167887353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_22
+      rect:
+        serializedVersion: 2
+        x: 5421
+        y: 3737
+        width: 661
+        height: 883
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 793ef6f17528e6b459e391fa40884e1a
+      internalID: -398103167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_23
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 2808
+        width: 658
+        height: 881
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b87f77af958cc419075b33e4365beb
+      internalID: -1149950381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_24
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 2808
+        width: 651
+        height: 881
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a302d7fefb865f84ba9fafbad0ba65ff
+      internalID: 196468439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_25
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 2808
+        width: 648
+        height: 881
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6de873d55c0994ba85faf0fa8fa796
+      internalID: -1142372624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_26
+      rect:
+        serializedVersion: 2
+        x: 2379
+        y: 2808
+        width: 642
+        height: 881
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff4e6e7bafc637489a88bd8dd701687
+      internalID: 786238750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_27
+      rect:
+        serializedVersion: 2
+        x: 3145
+        y: 2808
+        width: 639
+        height: 881
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08338083fb9537643a96ffca693b8c11
+      internalID: 2133776198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_28
+      rect:
+        serializedVersion: 2
+        x: 3911
+        y: 2808
+        width: 636
+        height: 881
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d11107e19187004290c31765bccfe42
+      internalID: -219707482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_29
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 2808
+        width: 629
+        height: 881
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd18dbb84fa31e47892cd8b812c7e8d
+      internalID: 1000253276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_30
+      rect:
+        serializedVersion: 2
+        x: 5443
+        y: 2808
+        width: 629
+        height: 881
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff498dcaa75b4e4cb2ba10c7b3b65de
+      internalID: -814055568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_31
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1877
+        width: 626
+        height: 884
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1045838975368c64caa813957f72d73d
+      internalID: 840453969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_32
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 1877
+        width: 629
+        height: 884
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a6898c49af0314eb1b76269d90345a
+      internalID: -2021955699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_33
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 1877
+        width: 627
+        height: 884
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8be80dd082e014a91fa1ff6f69f5f1
+      internalID: -1061183198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_34
+      rect:
+        serializedVersion: 2
+        x: 2382
+        y: 1877
+        width: 626
+        height: 884
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8e691e66708b849ae1eb61bef6742e
+      internalID: -1778273175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_35
+      rect:
+        serializedVersion: 2
+        x: 3142
+        y: 1877
+        width: 626
+        height: 884
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e6adcdc5f5f7047b14cfcede112bd7
+      internalID: -2092015631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_36
+      rect:
+        serializedVersion: 2
+        x: 3905
+        y: 1877
+        width: 626
+        height: 884
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b97641f39d3214b9223e16c9754de1
+      internalID: -358334883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_37
+      rect:
+        serializedVersion: 2
+        x: 4667
+        y: 1877
+        width: 627
+        height: 884
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c8f47acb09e374ab85275c8293a754
+      internalID: 896503423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_38
+      rect:
+        serializedVersion: 2
+        x: 5430
+        y: 1877
+        width: 626
+        height: 884
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4a2e7535de5054eac4dd6967c04ca0
+      internalID: -733274752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_39
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 946
+        width: 629
+        height: 883
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df814f300a2903346969da63f04e9641
+      internalID: -607657064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_40
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 946
+        width: 638
+        height: 883
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e04318d3d0a944c9bdb79b5abfd043
+      internalID: -59076257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_41
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 946
+        width: 648
+        height: 883
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d8562b49c5b8d4fbe6a6bf9b65a87a
+      internalID: 1438125296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_42
+      rect:
+        serializedVersion: 2
+        x: 2354
+        y: 946
+        width: 660
+        height: 883
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa682a1d15772344a0039a21cf9cd7b
+      internalID: 2105652312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_43
+      rect:
+        serializedVersion: 2
+        x: 3113
+        y: 946
+        width: 671
+        height: 883
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2163fe07f2de8fc40902126dd5304a7d
+      internalID: -1177679872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_44
+      rect:
+        serializedVersion: 2
+        x: 3870
+        y: 946
+        width: 683
+        height: 883
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f6412394f5bed4f854a6974e4664cc
+      internalID: 1819969887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_45
+      rect:
+        serializedVersion: 2
+        x: 4626
+        y: 947
+        width: 696
+        height: 882
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb2ba70872ca9e40b76349dbb997f37
+      internalID: 408851927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_46
+      rect:
+        serializedVersion: 2
+        x: 5386
+        y: 947
+        width: 705
+        height: 882
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b8fcab34bd36942a0587a1b856fc32
+      internalID: 40245306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_47
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 18
+        width: 718
+        height: 883
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d836e57093a9c7e4f9774650abe4c0e6
+      internalID: -1991354183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_48
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 18
+        width: 727
+        height: 883
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ba44094304a5144a9847e3de55851c
+      internalID: 1078542397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_49
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 18
+        width: 738
+        height: 883
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c8ddc205d9003645976263a80bda34c
+      internalID: -807163254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_50
+      rect:
+        serializedVersion: 2
+        x: 2300
+        y: 18
+        width: 753
+        height: 883
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 665d8585cb478bb40bae3ca2b954b44b
+      internalID: 1243726985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_51
+      rect:
+        serializedVersion: 2
+        x: 3056
+        y: 18
+        width: 763
+        height: 883
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b438302b8dbf817419f54a2d0bba3687
+      internalID: -222526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_52
+      rect:
+        serializedVersion: 2
+        x: 3821
+        y: 21
+        width: 763
+        height: 879
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd572372046747f4fa8d9e5c215420b3
+      internalID: -1708814555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_53
+      rect:
+        serializedVersion: 2
+        x: 4585
+        y: 1
+        width: 754
+        height: 895
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 584e92ac0e8c28e40bf2e6003963cd58
+      internalID: -1960941974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_54
+      rect:
+        serializedVersion: 2
+        x: 5347
+        y: 20
+        width: 761
+        height: 881
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08d6aae72b8283459dc2e9d9b39d371
+      internalID: 1148116222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: capa 2_Lokianimado_gif_55
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 5595
+        width: 758
+        height: 886
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d50af53666c745d428365289a43123db
+      internalID: -317820073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      capa 2_Lokianimado_gif_23: -1149950381
+      capa 2_Lokianimado_gif_7: -958693987
+      capa 2_Lokianimado_gif_38: -733274752
+      capa 2_Lokianimado_gif_52: -1708814555
+      capa 2_Lokianimado_gif_45: 408851927
+      capa 2_Lokianimado_gif_1: 1235309892
+      capa 2_Lokianimado_gif_39: -607657064
+      capa 2_Lokianimado_gif_35: -2092015631
+      capa 2_Lokianimado_gif_25: -1142372624
+      capa 2_Lokianimado_gif_13: 1263341684
+      capa 2_Lokianimado_gif_27: 2133776198
+      capa 2_Lokianimado_gif_46: 40245306
+      capa 2_Lokianimado_gif_5: 133499071
+      capa 2_Lokianimado_gif_53: -1960941974
+      capa 2_Lokianimado_gif_36: -358334883
+      capa 2_Lokianimado_gif_9: -1168890055
+      capa 2_Lokianimado_gif_37: 896503423
+      capa 2_Lokianimado_gif_41: 1438125296
+      capa 2_Lokianimado_gif_6: -1783462789
+      capa 2_Lokianimado_gif_51: -222526
+      capa 2_Lokianimado_gif_33: -1061183198
+      capa 2_Lokianimado_gif_55: -317820073
+      capa 2_Lokianimado_gif_21: -1167887353
+      capa 2_Lokianimado_gif_15: 1439487083
+      capa 2_Lokianimado_gif_47: -1991354183
+      capa 2_Lokianimado_gif_18: 927707812
+      capa 2_Lokianimado_gif_19: 1642360441
+      capa 2_Lokianimado_gif_14: -1967147428
+      capa 2_Lokianimado_gif_42: 2105652312
+      capa 2_Lokianimado_gif_28: -219707482
+      capa 2_Lokianimado_gif_48: 1078542397
+      capa 2_Lokianimado_gif_40: -59076257
+      capa 2_Lokianimado_gif_2: 953464756
+      capa 2_Lokianimado_gif_4: -2039391805
+      capa 2_Lokianimado_gif_30: -814055568
+      capa 2_Lokianimado_gif_11: 689693126
+      capa 2_Lokianimado_gif_43: -1177679872
+      capa 2_Lokianimado_gif_54: 1148116222
+      capa 2_Lokianimado_gif_8: 465611177
+      capa 2_Lokianimado_gif_50: 1243726985
+      capa 2_Lokianimado_gif_34: -1778273175
+      capa 2_Lokianimado_gif_26: 786238750
+      capa 2_Lokianimado_gif_31: 840453969
+      capa 2_Lokianimado_gif_24: 196468439
+      capa 2_Lokianimado_gif_10: -1279987407
+      capa 2_Lokianimado_gif_20: -981089989
+      capa 2_Lokianimado_gif_16: 1133749975
+      capa 2_Lokianimado_gif_22: -398103167
+      capa 2_Lokianimado_gif_49: -807163254
+      capa 2_Lokianimado_gif_32: -2021955699
+      capa 2_Lokianimado_gif_44: 1819969887
+      capa 2_Lokianimado_gif_29: 1000253276
+      capa 2_Lokianimado_gif_0: -1158356600
+      capa 2_Lokianimado_gif_3: 70861019
+      capa 2_Lokianimado_gif_12: 660806798
+      capa 2_Lokianimado_gif_17: -1880234415
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

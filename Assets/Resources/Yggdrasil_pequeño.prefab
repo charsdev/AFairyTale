@@ -164,7 +164,7 @@ MonoBehaviour:
     archetypeName: Yggdrasil_peque__char_241_o_6350f926c98120b4fafb9c7b0130b042
     GeneratesArchetypeDefinition: 1
   InterpolationLocation: 1
-  bakedScriptType: Coherence.Generated.CoherenceSyncYggdrasil_peque__char_241_o_id0,
+  bakedScriptType: Coherence.Generated.CoherenceSyncYggdrasil_peque__char_241_o,
     Assembly-CSharp
   approveAuthorityTransferRequests: 1
   simulationType: 0

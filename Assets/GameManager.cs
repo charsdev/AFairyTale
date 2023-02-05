@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
 {
     private float maxValue = 100;
     public float progress;
-	public Slider slider;
+	public ProgressBar progressBar;
     public float totalProgress = 0;
     public Timer timer;
 
@@ -19,6 +19,6 @@ public class GameManager : MonoBehaviour
     private void Update()
     {
         totalProgress += Mathf.Clamp((progress * Time.deltaTime) / 100, 0, maxValue);
-        slider.value = totalProgress;
+        progressBar.SetValue(totalProgress);
     }
 }
