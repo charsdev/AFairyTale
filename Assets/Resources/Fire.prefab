@@ -76,6 +76,7 @@ GameObject:
   - component: {fileID: 5576040065867047306}
   - component: {fileID: 261059355329171489}
   - component: {fileID: 7225055777935000945}
+  - component: {fileID: 658756504}
   m_Layer: 0
   m_Name: Fire
   m_TagString: Fire
@@ -161,7 +162,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5576040065867047301}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -255,6 +256,8 @@ MonoBehaviour:
       lodStepsActive: 1
     - component: {fileID: 8187914112691156430}
       lodStepsActive: 1
+    - component: {fileID: 658756504}
+      lodStepsActive: 1
     lodLevels:
     - distance: 0
     archetypeName: Fire_085c6723cf6718d4d9c137eca0538dcb
@@ -347,7 +350,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5576040065867047301}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7d907c3087ff83949aab6a45c757ed7f, type: 3}
   m_Name: 
@@ -359,6 +362,21 @@ MonoBehaviour:
   - {fileID: 6370556416068654306}
   - {fileID: 681301245928742551}
   maxChilds: 1
+--- !u!114 &658756504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5576040065867047301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db554c3fa17805848b09546bf699466e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
+  damage: 1
+  damageCooldown: 0
 --- !u!1 &7465137182183306449
 GameObject:
   m_ObjectHideFlags: 0

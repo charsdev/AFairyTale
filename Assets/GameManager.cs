@@ -18,7 +18,23 @@ public class GameManager : MonoBehaviour
     }
     private void Update()
     {
-        totalProgress += Mathf.Clamp((progress * Time.deltaTime) / 100, 0, maxValue);
+        totalProgress += (progress * Time.deltaTime) / maxValue;
+
+        if (totalProgress > maxValue)
+        {
+            totalProgress = maxValue;
+        }
+
+        if (progress < 0)
+        {
+            progress = 0;
+        }
+
+        if (totalProgress < 0)
+        {
+            totalProgress = 0;
+        }
+
         progressBar.SetValue(totalProgress);
     }
 }

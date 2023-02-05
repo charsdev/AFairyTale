@@ -16,8 +16,8 @@ public class ProgressBar : MonoBehaviour
 
     public void SetValue(float value)
     {
-        left.value = value;
-        right.value = value;
+        left.value = value / 100;
+        right.value = value / 100;
         rightFill.color = Color.Lerp(Low, High, right.normalizedValue);
         leftFill.color = Color.Lerp(Low, High, left.normalizedValue);
     }
