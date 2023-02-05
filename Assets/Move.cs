@@ -28,6 +28,15 @@ public class Move : MonoBehaviour
 
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.CompareTag("Fire")){
+            Debug.Log("its FIRE!");
+        }
+
+
+    }
+
     private void GetPointToMove()
     {
         if (Input.GetMouseButtonDown(0))

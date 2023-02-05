@@ -181,6 +181,7 @@ GameObject:
   - component: {fileID: 1148727325288114105}
   - component: {fileID: 8577395177923824238}
   - component: {fileID: 541321232}
+  - component: {fileID: -6840731463142973368}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -221,7 +222,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4511118820961885655}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -283,7 +284,13 @@ MonoBehaviour:
       lodStepsActive: 1
     - component: {fileID: 1148727325288114105}
       lodStepsActive: 1
-    - component: {fileID: 0}
+    - component: {fileID: 541321232}
+      lodStepsActive: 1
+    - component: {fileID: 1876871655}
+      lodStepsActive: 1
+    - component: {fileID: 1876871656}
+      lodStepsActive: 1
+    - component: {fileID: -6840731463142973368}
       lodStepsActive: 1
     lodLevels:
     - distance: 0
@@ -458,3 +465,19 @@ MonoBehaviour:
   _spriteRenderer: {fileID: 6923611363273289432}
   _camera: {fileID: 0}
   OffsetMagic: {x: 0, y: 0, z: 0}
+--- !u!54 &-6840731463142973368
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4511118820961885655}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
