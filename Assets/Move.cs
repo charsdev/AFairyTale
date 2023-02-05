@@ -28,7 +28,24 @@ public class Move : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Fire")){
             Debug.Log("its FIRE!");
+            _magicHint.SetActive(true);
         }
+    }
 
+    void OnTriggerStay(Collider other)
+    {
+        if(other.gameObject.CompareTag("Fire")){
+            if(Input.GetKeyDown("space")){
+                Destroy(other.gameObject);
+                _magicHint.SetActive(false);
+            }
+        }
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+        if(other.gameObject.CompareTag("Fire")){
+            _magicHint.SetActive(false);
+        }
     }
 }
