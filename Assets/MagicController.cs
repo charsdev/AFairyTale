@@ -7,6 +7,7 @@ public class MagicController : MonoBehaviour
 
     [SerializeField] private float _maxEnergy = 100;
     [SerializeField] private float _currentEnergy;
+    [SerializeField] private GameObject _effect;
 
     private bool _usingSpell;
 
@@ -25,6 +26,7 @@ public class MagicController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && !_usingSpell)
         {
             _usingSpell = true;
+            _effect.SetActive(true);
         }
 
         if (Input.GetKey(KeyCode.Space))
@@ -35,6 +37,7 @@ public class MagicController : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.Space) && _usingSpell)
         {
             _usingSpell = false;
+            _effect.SetActive(false);
         }
 
         skillCooldownFill.fillAmount = _currentEnergy / _maxEnergy;
@@ -57,6 +60,7 @@ public class MagicController : MonoBehaviour
         {
             _usingSpell = false;
             _currentEnergy = 0.0f;
+            _effect.SetActive(false);
         }
     }
 
